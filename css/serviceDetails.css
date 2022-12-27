@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.divAnh1{
+    height: 400px;
+    background-image: url(/image/imageAbout/aboutImage1.jpg);
+    background-size: cover;
+}
+.divAnh1-title{
+    justify-content: center;
+}
+.divAnh1-title h2 {
+    margin-top: -130px;
+    color: #fff;
+    font-size: 128px;
+}
+.content {
+    margin-top: 141px;
+}
+.sidebar{
+    width: 310px;
+}
+.search .form-control{
+    padding: 16px 45px 16px 29px;
+    font-size: 18px;
+    color: #6e6d6d;
+}
+.search i{
+   font-size: 16px;
+   color:#0055ff;
+}
+.search button {
+    border-color: #ced4da;
+}
+.search button:hover{
+   background-color: #f0f0f0;
+}
+.sidebar h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.sidebar a{
+    background-color: #f0f0f0;
+    color:#6a6a6a;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 29px;
+}
+.sidebar a.active{
+    background-color: #0055ff;
+}
+.sidebar a:hover {
+    background-color:#0055ff;
+    color:#fff;
+}
+.sidebar .list-group a {
+    margin-bottom: 15px;
+}
+.sidebar p.quote{
+    font-size: 25px;
+    width: 242px;
+}
+.quoteBlock {
+    background-color: #171b23;
+    padding: 52px 20px 49px 20px;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    
+}
+.swiper-slide{
+    height: 100%;
+    padding-right: 22px;
+    margin-bottom: 20px;
+}
+p.quote {
+    margin-top: -168px;
+}
+.quoteBlock h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+p.position{
+    color: #0055ff;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+.swiper-pagination-bullet:hover {
+    background-color: #4658ff;
+}
+.swiper-pagination-bullet-active {
+    background-color: #4658ff;  
+}
+.mainContent{
+    margin: 0 0 80px 71px;  
+}
+.mainContent h3{
+    font-weight: 700;
+    font-size: 42px;
+    margin: 35px 0;
+}
+.mainContent p{
+    color: #777;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 820px;
+}
+.mainContent h4 {
+    width: 760px;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 1.3;
+    margin: 32px 0;
+}
+
+.mainContent .texHighlight {
+    background-color: #0055ff;
+    height: 260px; 
+    margin: 50px 0;
+    text-align: center;
+    width: 802px;
+}
+
+.mainContent .texHighlight p{
+    font-size: 32px;
+    color: #fff;
+    padding: 38px 42px 27px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -200px;
+}
+.mainContent .texHighlight img {
+    margin-top: 38px;
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divAnh1{
+        height: 240px;
+    }
+    .divAnh1-title h2 {
+        font-size: 75px;
+        margin-top: -72px;
+    }
+    .mainContent h3{
+        font-size: 42px;
+    }
+    .mainContent h4{
+        font-size: 38px;
+        width: 658px;
+    }
+    .mainContent p{  
+        width: 716px;
+    }
+    .mainContent img{
+        width: 100%;
+    }
+    .mainContent .texHighlight img {
+        width: 208px;
+    }
+    .mainContent .texHighlight{
+        width: 700px;
+    }
+    .content {
+        margin-top: 62px;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .sidebar p.quote{
+        width: 660px;
+    }
+    .container{
+        padding-bottom: 115px;
+    }
+}
+/* iphone */
+@media(min-width: 320px) and (max-width: 736px) {
+    .divAnh1 {
+        height: 200px;
+        background-position: center;   
+    }
+    .divAnh1-title h2 {
+        font-size: 35px;
+        margin-top: -34px;
+    }
+    .mainContent{
+        margin: auto;
+    }
+    .mainContent h3{
+        font-size: 30px;
+    }
+    .mainContent h4{
+        font-size: 30px;
+        width: 316px;
+    }
+    .mainContent p{  
+        width: 328px;
+        font-size: 14px;
+    }
+    .mainContent img{
+        width: 328px;
+    }
+    .mainContent .texHighlight{
+        height: 317px;
+        width: 332px;
+    }
+    .mainContent .texHighlight img {
+        width: 172px;
+    }
+    .mainContent .texHighlight p{
+        padding: 38px 12px 27px;
+    }
+    .content{
+        flex-direction: column-reverse;
+        margin-top: 65px;
+        margin-right: -20px;
+    }
+    .search i{
+        font-size: 20px;
+    }
+    .sidebar{
+        width: 331px;
+        margin-bottom: 20px;
+    }
+}
