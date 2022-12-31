@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.divAnh1{
+    height: 400px;
+    background-image: url(/image/imageAbout/aboutImage1.jpg);
+    background-size: cover;
+}
+.divAnh1-title{
+    justify-content: center;
+}
+.divAnh1-title h2 {
+    margin-top: -130px;
+    color: #fff;
+    font-size: 128px;
+}
+.box {
+    padding: 140px 0 118px;
+}
+.divAnh2{
+    width: 500px;
+}
+.chuto{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.box1-right .chuto{
+    width: 564px;
+}
+.box1-right span{
+    margin-top: 55px;
+    display: block;
+}
+.chunho{
+    font-size: 16px;
+    color: #777;
+    margin: 38px 0 38px 0;
+}
+.chunho p, 
+.chuto p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+    color: #fff;
+    background-color: #0055ff;
+    border: none;
+    padding: 22px 42px;
+    text-transform: uppercase;
+}
+.box1-right .chunho{
+    width: 582px;
+}
+
+.box2{
+    margin-top: 90px;
+}
+.teamMember{
+    height: 980px;
+}
+.teamMem {
+    background-color: #e6e6e6;
+    z-index: 1;
+}
+.teamMem .shape-style1 img{
+    width: 703px;
+    height: 555px;
+    margin-left: -156px;
+}
+.teamMem .shape-style2 img{
+    height: 435px;
+    margin-top: 525px;
+}
+
+.teamMem-content {
+    z-index: 1;
+    padding: 140px 0 126px;
+    margin-left: 114px;
+}
+.teamMem-title h4 {
+    font-size: 18px;
+    background: #f0f0f0;
+    margin-bottom: 18px;
+    padding: 14px 68px;
+    
+}
+.teamMem-title h2{
+    font-size: 52px;
+    color:#171b23;
+}
+.teamMem-title {
+    margin-bottom: 65px;
+}
+.divLogo{
+    padding: 140px 0 90px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.card_slider1 .text-center{
+    display: none;
+}
+.swiper-slide-active .text-center{
+    display: block;
+}
+.card_slider1 h4 {
+    font-size: 30px;
+}
+.quoteBlock{
+    width: 932px;
+}
+.quoteBlock .quote {
+    font-size: 38px;
+    margin-top: 80px;
+    color:#171b23;
+    background-image: url(/image/imageAbout/backgroundQuote.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 219px;
+    padding-top: 20px;
+}
+.quoteBlock h4{
+    font-size: 35px;
+    color:#171b23;
+}
+.position{
+    font-size: 17px;
+    color: #0055ff;
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divAnh1{
+        height: 240px;
+    }
+    .divAnh1-title h2 {
+        font-size: 75px;
+        margin-top: -72px;
+    }
+    .box{
+        padding: 65px 0;
+    }
+    .box1 .divAnh2{
+        width: 356px;
+        height: 516px;
+    }
+    .box1-right span{
+        font-size: 35px;
+    }
+    .box1 .chuto{
+        font-size: 35px;
+        width: 320px;
+    }
+    .box1-right{
+        margin-left: 5px;
+    }
+    .box1-right .chunho{
+        width:371px;
+    }
+    .teamMember {
+        height: 668px;
+    }
+    .teamMem .shape-style1 img{
+        width: 703px;
+        height: 555px;
+        margin-left: -156px;
+    }
+    .teamMem .shape-style2 img{
+        height: 435px;
+        margin-top: 177px;
+        margin-left: -140px;    
+    }
+    .teamMem-content{
+        margin-left: 15px;
+        padding: 90px 0 78px;
+    }
+    .teamMem-title h2{
+        font-size: 36px;
+    }
+    .swiper-slide img{
+        width: 200px;
+    }
+    .swiper-slide h4 {
+        font-size: 24px;
+    }
+    .teamMem-title h4{
+        font-size: 12px;
+    }
+    .card_slider2 img{
+        width: 128px;
+    }
+    .divLogo{
+        padding: 90px 0;
+    }
+    .quoteBlock .quote{
+        font-size: 30px;
+        margin-top: 31px;
+        background-size: 148px;
+        padding-top: 10px;
+        height: 100%;
+    }
+    .quoteBlock h4{
+        font-size: 28px;
+    }
+}
+
+/* iphone */
+@media(min-width: 320px) and (max-width: 736px) {
+    .p-left{
+        padding: 15px;
+        margin: auto;
+    }
+    .divAnh1 {
+        height: 200px;
+        background-position: center;   
+    }
+    .divAnh1-title h2 {
+        font-size: 35px;
+        margin-top: -34px;
+    }
+    .box{
+        padding: 80px 0 55px;
+    }
+    .box1 .divAnh2{
+        width: 328px;   
+    }
+    .box1 .chuto,
+    .box2 .chuto{
+        font-size: 30px;
+        width: 320px;
+    }
+    .box1-right .chunho{
+        width:330px;
+    }
+    .teamMember {
+        height: 740px;   
+        max-width: 736px;
+    }
+    .teamMem .shape-style1 img{
+        width: 100%;
+        height: 680px;
+    }
+    .teamMem .shape-style2 img{
+        display: none;
+    }
+    .teamMem-content{
+        margin-left: 0px;
+        padding: 80px 0 68px;
+        width: 100%;
+    }
+    .teamMem-title h4{
+        font-size: 12px;
+    }
+    .teamMem-title h2{
+        font-size: 30px;
+    }
+    .swiper-slide img{
+        width: 300px;
+    }
+    .swiper-slide h4 {
+        font-size: 24px;
+    }
+    .teamMem-title h4{
+        font-size: 12px;
+    }
+    .teamMem-details{
+        width: 320px;
+    
+    }
+    .card_slider2 img{
+        width: 128px;
+        margin-left: -82px;
+    }
+    .quoteBlock{
+        width: 360px;
+    }
+    .quoteBlock .quote{
+        font-size: 22px;
+        margin-top: 31px;
+        background-size: 201px;
+        width: 298px;
+    }
+    .imgGirl{
+        width: 128px;
+    }
+    .quoteBlock h4{
+        font-size: 28px; 
+    } 
+
+}
+
+
