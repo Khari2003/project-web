@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.divanh1{
+    height: 400px;
+    background-image: url(Anh1.jpg);
+    background-size: cover;
+}
+.divanh1-title{
+    justify-content: center;
+}
+.divanh1-title h2 {
+    margin-top: -130px;
+    color: #fff;
+    font-size: 128px;
+}
+.error-content h1{
+    color: #0e0e0e;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+}
+.error-content p{
+    color: #0e0e0e;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.btn {
+    color: #fff;
+    background-color: #0055ff;
+    padding: 22px 42px;
+    text-transform: uppercase;
+    display: inline;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 16px;
+    font-size: 16px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);/* box-shadow: h-offset v-offset blur spread color*/
+}
+
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divanh1{
+        height: 240px;
+    }
+    .divanh1-title h2 {
+        font-size: 75px;
+        margin-top: -72px;
+    }
+    
+}
+/* iphone */
+@media(min-width: 320px) and (max-width: 736px) {
+    .divanh1 {
+        font-size: 200px;
+        height: 300px;
+        background-position: center;   
+    }
+    .divanh1-title h2 {
+        font-size: 35px;
+        margin-top: -34px;
+    }
+    .error-content img{
+        height: 200px;
+        background-position: center;  
+
+    }
+}
